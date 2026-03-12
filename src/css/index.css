@@ -6,7 +6,8 @@ html {
 /* BODY */
 
 body {
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
   display: flex;
   font-family: Poppins;
   width: 100%;
