@@ -25,7 +25,7 @@ function enviarWhatsApp() {
 
   // Monta a mensagem
   const texto = `*Formulário de Contato*\n\n*Nome:* ${nome}\n*E-mail:* ${email}\n*Assunto:* ${assunto}\n*Mensagem:* ${mensagem}`;
-  const numero = "5511999999999"; // Substitua pelo seu número
+  const numero = "5551993866634"; // Substitua pelo seu número
   const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
 
   // Abre o WhatsApp
